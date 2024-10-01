@@ -53,10 +53,10 @@
                                             <li> <a href="{{ route('contact') }}">Contact</a> </li>
                                         </ul>
                                     </nav>
-                                    <a href="login.html" class="rv-34-btn show-for-devices">Book Consultation</a>
+                                    {{-- <a href="login.html" class="rv-34-btn show-for-devices">Book Consultation</a> --}}
                                 </div>
                                 <div class="rv-31-menu-right">
-                                    <a href="javascript:void(0)" class="rv-34-btn hide-for-devices">Book Consultation</a>
+                                    {{-- <a href="javascript:void(0)" class="rv-34-btn hide-for-devices">Book Consultation</a> --}}
                                     <button class=" rv-3-def-btn rv-1-header-mobile-menu-btn d-lg-none d-inline-block" id="rv-1-header-mobile-menu-btn">
                                         <i class="fa-bars fa-regular"></i>
                                     </button>

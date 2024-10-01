@@ -40,11 +40,11 @@
                 <h2 class="rv-34-section-title wow fadeInUp" data-wow-delay="0.3s">Some Exclusive Service</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="rv-32-service-item rv-34-service-item wow fadeInUp">
-                    <div class="rv-32-service-item__icon">
-                        <img src="{{ asset('assets/img/Software/service/rv-34-icon1.png') }}" alt="icon">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 rv-32-service-item rv-34-service-item wow fadeInUp">
+                <div class="">
+                    <div class="rv-32-service-item__icon text-center">
+                        <img src="{{ asset('assets/img/Software/service/network.gif') }}" width="80" alt="icon">
                     </div>
                     <h5 class="rv-32-service-item__title">IT Infrastructure Services</h5>
                     <p class="rv-32-service-item__text">
@@ -64,10 +64,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="rv-32-service-item rv-34-service-item wow fadeInUp" data-wow-delay="0.25s">
-                    <div class="rv-32-service-item__icon">
-                        <img src="{{ asset('assets/img/Software/service/rv-34-icon2.png') }}" alt="icon">
+            <div class="col-lg-4 col-md-6 rv-32-service-item rv-34-service-item wow fadeInUp">
+                <div class="" data-wow-delay="0.25s">
+                    <div class="rv-32-service-item__icon text-center">
+                        <img src="{{ asset('assets/img/Software/service/cyber-security.gif') }}" width="80" alt="icon">
                     </div>
                     <h5 class="rv-32-service-item__title">Cyber Security Services</h5>
                     <p class="rv-32-service-item__text">
@@ -87,10 +87,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="rv-32-service-item rv-34-service-item wow fadeInUp" data-wow-delay="0.35s">
-                    <div class="rv-32-service-item__icon">
-                        <img src="{{ asset('assets/img/Software/service/rv-34-icon3.png') }}" alt="icon">
+            <div class="col-lg-4 col-md-6 rv-32-service-item rv-34-service-item wow fadeInUp">
+                <div class="" data-wow-delay="0.35s">
+                    <div class="rv-32-service-item__icon text-center">
+                        <img src="{{ asset('assets/img/Software/service/laptop.gif') }}" width="80" alt="icon">
                     </div>
                     <h5 class="rv-32-service-item__title">Development Services</h5>
                     <p class="rv-32-service-item__text">
@@ -110,10 +110,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="rv-32-service-item rv-34-service-item wow fadeInUp" data-wow-delay="0.45s">
-                    <div class="rv-32-service-item__icon">
-                        <img src="{{ asset('assets/img/Software/service/rv-34-icon4.png') }}" alt="icon">
+            <div class="col-lg-4 col-md-6 rv-32-service-item rv-34-service-item wow fadeInUp">
+                <div class="" data-wow-delay="0.45s">
+                    <div class="rv-32-service-item__icon text-center">
+                        <img src="{{ asset('assets/img/Software/service/ui-design.gif') }}" width="80" alt="icon">
                     </div>
                     <h5 class="rv-32-service-item__title">Designing Services</h5>
                     <p class="rv-32-service-item__text">
@@ -125,6 +125,29 @@
                         </a>
                         <p class="rv-32-service-item__text">
                             Our designing services include creating visually stunning, user-centric UI/UX designs and professional logos that enhance brand identity and user engagement.
+                        </p>
+                        <a href="service-details.html"
+                            class="rv-31-blog-item__content-readMore rv-34-view-link">Read More <i
+                                class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 rv-32-service-item rv-34-service-item wow fadeInUp">
+                <div class="" data-wow-delay="0.45s">
+                    <div class="rv-32-service-item__icon text-center">
+                        <img src="{{ asset('assets/img/Software/service/website-builder.gif') }}" width="80" alt="icon">
+                    </div>
+                    <h5 class="rv-32-service-item__title">WordPress & Shopify Services</h5>
+                    <p class="rv-32-service-item__text">
+                        We offers expert WordPress and Shopify development skills, delivering customized, responsive, and SEO-friendly websites to boost your online presence and eCommerce success.
+                    </p>
+                    <div class="rv-34-service-item__overlay">
+                        <a href="service-details.html">
+                            <h5 class="rv-32-service-item__title">WordPress & Shopify Services</h5>
+                        </a>
+                        <p class="rv-32-service-item__text">
+                            We offers expert WordPress and Shopify development skills, delivering customized, responsive, and SEO-friendly websites to boost your online presence and eCommerce success.
                         </p>
                         <a href="service-details.html"
                             class="rv-31-blog-item__content-readMore rv-34-view-link">Read More <i
