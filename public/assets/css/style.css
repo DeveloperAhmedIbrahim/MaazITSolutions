@@ -67025,9 +67025,10 @@ only screen and (min-width: 0px) and (max-width: 479px) {
 }
 
 .rv-inner-contact-info {
-    background: linear-gradient(94deg, #f9f9f9, #fdfdfd);
+    background: #1A1A1A;
     border: 1px solid #fdfdfd;
     padding: 30px 40px;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 1399px) {
@@ -67050,7 +67051,7 @@ only screen and (min-width: 0px) and (max-width: 479px) {
 
 .rv-inner-contact-info__heading {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     gap: 6px 15px;
     margin-bottom: 15px;
@@ -67066,12 +67067,12 @@ only screen and (min-width: 0px) and (max-width: 479px) {
     width: 55px;
     height: 55px;
     border-radius: 50%;
-    background-color: var(--white-f);
+    background-color: #B1F001;
     flex-shrink: 0;
     display: grid;
     place-content: center;
     font-size: 22px;
-    color: var(--black);
+    color: white;
 }
 
 @media screen and (max-width: 1199px) {
@@ -67084,9 +67085,10 @@ only screen and (min-width: 0px) and (max-width: 479px) {
 
 .rv-inner-contact-info__title {
     margin-bottom: 0;
-    font-size: 22px;
+    font-size: 18px;
     font-family: var(--mulish);
     font-weight: 700;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -67096,11 +67098,12 @@ only screen and (min-width: 0px) and (max-width: 479px) {
 }
 
 .rv-inner-contact-info .rv-5-footer-timings li {
-    color: var(--black);
+    color: white;
     font-size: 16px;
     font-weight: 500;
     gap: 6px 15px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .rv-inner-contact-info .rv-5-footer-timings li:not(:last-child) {
@@ -67108,7 +67111,7 @@ only screen and (min-width: 0px) and (max-width: 479px) {
 }
 
 .rv-inner-contact-info .rv-5-footer-timings li a {
-    color: var(--black);
+    color: white;
 }
 
 .rv-inner-contact-info .rv-5-footer-timings li a:hover {
@@ -67132,6 +67135,7 @@ only screen and (min-width: 0px) and (max-width: 479px) {
     border-color: #B1F001;
     background-color: #B1F001;
     color: var(--white-f);
+    border-radius: 5px;
 }
 
 .rv-inner-contact__form button:hover {
