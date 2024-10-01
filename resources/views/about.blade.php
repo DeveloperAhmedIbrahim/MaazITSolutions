@@ -8,7 +8,7 @@
         <h1 class="rv-breadcrumb__title">About</h1>
 
         <ul class="rv-breadcrumb__nav d-flex justify-content-center">
-            <li><a href="{{ route('about') }}"><i class="fa-solid fa-sharp fa-home"></i> Home</a></li>
+            <li><a href="{{ route('home') }}"><i class="fa-solid fa-sharp fa-home"></i> Home</a></li>
             <li class="current-page"><span class="dvdr"> &#47;</span><span>About us</span></li>
         </ul>
     </div>
