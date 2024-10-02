@@ -21,9 +21,32 @@ class HomeController extends Controller
         return view('about');
     }
 
-    public function service()
+    public function service($slug = null)
     {
-        return view('service');
+        if($slug === 'it-infrastructure')
+        {
+            return view('services.it-infrastructure');
+        }
+        elseif($slug === 'cyber-security')
+        {
+            return view('services.cyber-security');
+        }
+        elseif($slug === 'development')
+        {
+            return view('services.development');
+        }
+        elseif($slug === 'designing')
+        {
+            return view('services.designing');
+        }
+        elseif($slug === 'wordpress-and-shopify')
+        {
+            return view('services.wordpress-and-shopify');
+        }
+        else
+        {
+            return view('service');
+        }
     }
 
     public function contact()

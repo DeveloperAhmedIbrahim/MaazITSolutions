@@ -36,13 +36,13 @@
                         Optimize Your IT Infrastructure with our strategic guidance, leveraging in-house expertise to design and growth for seamless performance and scalability Infrastructure.
                     </p>
                     <div class="rv-34-service-item__overlay">
-                        <a href="service-details.html">
+                        <a href="{{ route('service', 'it-infrastructure') }}">
                             <h5 class="rv-32-service-item__title">IT Infrastructure Services</h5>
                         </a>
                         <p class="rv-32-service-item__text">
                             Optimize Your IT Infrastructure with our strategic guidance, leveraging in-house expertise to design and growth for seamless performance and scalability Infrastructure.
                         </p>
-                        <a href="service-details.html"
+                        <a href="{{ route('service', 'it-infrastructure') }}"
                             class="rv-31-blog-item__content-readMore rv-34-view-link">Read More
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -59,13 +59,13 @@
                         Customized Cybersecurity Solutions to meet unique challenges and objectives, ensuring seamless integration, robust protection, and effective incident management across your enterprise infrastructure.
                     </p>
                     <div class="rv-34-service-item__overlay">
-                        <a href="service-details.html">
+                        <a href="{{ route('service', 'cyber-security') }}">
                             <h5 class="rv-32-service-item__title">Cyber Security Services</h5>
                         </a>
                         <p class="rv-32-service-item__text">
                             Customized Cybersecurity Solutions to meet unique challenges and objectives, ensuring seamless integration, robust protection, and effective incident management across your enterprise infrastructure.
                         </p>
-                        <a href="service-details.html"
+                        <a href="{{ route('service', 'cyber-security') }}"
                             class="rv-31-blog-item__content-readMore rv-34-view-link">Read More <i
                                 class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -82,13 +82,13 @@
                         Our development services include creating dynamic mobile applications, responsive and scalable web applications. We ensure each solution is tailored to meet your unique business needs. Partner with us to drive innovation and growth.
                     </p>
                     <div class="rv-34-service-item__overlay">
-                        <a href="service-details.html">
+                        <a href="{{ route('service', 'development') }}">
                             <h5 class="rv-32-service-item__title">Development Services</h5>
                         </a>
                         <p class="rv-32-service-item__text">
                             Our development services include creating dynamic mobile applications, responsive and scalable web applications. We ensure each solution is tailored to meet your unique business needs. Partner with us to drive innovation and growth.
                         </p>
-                        <a href="service-details.html"
+                        <a href="{{ route('service', 'development') }}"
                             class="rv-31-blog-item__content-readMore rv-34-view-link">Read More <i
                                 class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -105,13 +105,13 @@
                         Our designing services include creating visually stunning, user-centric UI/UX designs and professional logos that enhance brand identity and user engagement.
                     </p>
                     <div class="rv-34-service-item__overlay">
-                        <a href="service-details.html">
+                        <a href="{{ route('service', 'designing') }}">
                             <h5 class="rv-32-service-item__title">Designing Services</h5>
                         </a>
                         <p class="rv-32-service-item__text">
                             Our designing services include creating visually stunning, user-centric UI/UX designs and professional logos that enhance brand identity and user engagement.
                         </p>
-                        <a href="service-details.html"
+                        <a href="{{ route('service', 'designing') }}"
                             class="rv-31-blog-item__content-readMore rv-34-view-link">Read More <i
                                 class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -128,13 +128,13 @@
                         We offers expert WordPress and Shopify development skills, delivering customized, responsive, and SEO-friendly websites to boost your online presence and eCommerce success.
                     </p>
                     <div class="rv-34-service-item__overlay">
-                        <a href="service-details.html">
+                        <a href="{{ route('service', 'wordpress-and-shopify') }}">
                             <h5 class="rv-32-service-item__title">WordPress & Shopify Services</h5>
                         </a>
                         <p class="rv-32-service-item__text">
                             We offers expert WordPress and Shopify development skills, delivering customized, responsive, and SEO-friendly websites to boost your online presence and eCommerce success.
                         </p>
-                        <a href="service-details.html"
+                        <a href="{{ route('service', 'wordpress-and-shopify') }}"
                             class="rv-31-blog-item__content-readMore rv-34-view-link">Read More <i
                                 class="fa-solid fa-arrow-right"></i>
                         </a>
