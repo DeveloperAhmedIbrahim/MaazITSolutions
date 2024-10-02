@@ -16,10 +16,10 @@
                         To boost your business at <span>Enterprise</span> level.
                     </p>
                     <div class="rv-34-banner-btns mt-40">
-                        <a href="about.html" class="rv-34-btn mr-15 wow fadeInUp">Learn More
+                        <a href="{{ route('service') }}" class="rv-34-btn mr-15 wow fadeInUp">Our Services
                             <i class="fa-solid fa-arrow-right-long ms-1"></i>
                         </a>
-                        <a href="contact.html" class="rv-34-btn wow fadeInUp" data-wow-delay="0.3s">Get in Touch
+                        <a href="{{ route('contact') }}" class="rv-34-btn wow fadeInUp" data-wow-delay="0.3s">Get in Touch
                             <i class="fa-solid fa-arrow-right-long ms-1 "></i>
                         </a>
                     </div>
@@ -167,9 +167,8 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="rv-34-abt-imgs wow slideInLeft">
-                    <img src="{{ asset('assets/img/Software/about/rv-34-abt-1.jpg') }}" class="rv-34-big-img"
-                        alt="speaker">
-                    <img src="{{ asset('assets/img/Software/about/rv-34-abt-2.jpg') }}" class="rv-34-sm-img" alt="speaker">
+                    <img src="{{ asset('assets/img/Software/about/rv-34-abt-1.jpg') }}" class="rv-34-big-img" alt="speaker" style="opacity:0.8;">
+                    <img src="{{ asset('assets/img/Software/about/rv-34-abt-2.jpg') }}" class="rv-34-sm-img" alt="speaker" width="200" style="opacity:0.8;">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -186,7 +185,7 @@
                         </p>
                         <div class="rv-34-abt-content__btns mt-40 wow fadeInUp">
 
-                            <a href="about.html" class="rv-34-btn mr-20">Read More
+                            <a href="{{ route('about') }}" class="rv-34-btn mr-20">Read More
                                 <i class="fa-solid fa-arrow-right-long ms-1"></i>
                             </a>
                             <a href="https://www.youtube.com/embed/PBDlbSAddAI?si=v8WM4F7YcsE4MMtS"
@@ -299,7 +298,7 @@
 <!-- Testimonial section end  -->
 
 <!-- Team section start  -->
-<section class="rv-34-team mb-120">
+{{-- <section class="rv-34-team mb-120">
     <div class="container">
         <div class="row">
             <div
@@ -378,6 +377,6 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- Team section end  -->
 @endsection

@@ -64,30 +64,4 @@
 </section>
 <!-- ABOUT SECTION END -->
 
-<!-- CTA SECTION START -->
-<section class="rv-14-cta rv-section-spacing">
-    <div class="container">
-        <div class="row g-4 align-items-center">
-            <div class="col-lg-6">
-                <div class="rv-14-cta__txt">
-                    <h6 class="rv-1-section__sub-title rv-text-anime">Our Newsletter</h6>
-                    <h2 class="rv-1-section__title rv-text-anime mb-0">Become a Member For Unique Updates!</h2>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <form action="#" class="rv-6-footer-nwsltr__form rv-14-nwsltr__form">
-                    <div class="nwsltr-left">
-                        <input type="email" name="email" placeholder="Enter your Email...">
-                        <div class="rv-6-footer-nwsltr__checkbox rv-14-nwsltr__checkbox">
-                            <input type="checkbox" id="nwsltr-checkbox" name="checkbox" value="1">
-                            <label for="nwsltr-checkbox"> I agree to the <a href="#">Privacy Policy</a>.</label>
-                        </div>
-                    </div>
-                    <button><i class="fa-light fa-paper-plane"></i> <span class="txt">Subscribe</span></button>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- CTA SECTION END -->
 @endsection

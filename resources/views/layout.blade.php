@@ -92,63 +92,45 @@
                                 </div>
                             </a>
                             <p class="rv-31-footer-text">
-                                Morbi pharetra, eros sed euismod <br> pellentesque, nulla risus lobortis<br> purus, quis
-                                maximus.
+                                Every IT Solution You Need!
+                                <br>
+                                To boost your business at Enterprise level.
                             </p>
                             <div class="rv-31-footer-socials wow fadeInUp" data-wow-delay="0.3s">
-                                <a href="#"><span><i class="fa-brands fa-twitter"></i></span></a>
-                                <a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a>
-                                <a href="#"><span><i class="fa-brands fa-linkedin-in"></i></span></a>
+                                <a href="javascript:void(0)"><span><i class="fa-brands fa-linkedin-in"></i></span></a>
+                                <a href="javascript:void(0)"><span><i class="fa-brands fa-facebook-f"></i></span></a>
+                                <a href="javascript:void(0)"><span><i class="fa-brands fa-instagram"></i></span></a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-6 col-sm-6 ">
+                    <div class="col-lg-4 col-md-6 col-sm-6 ">
                         <div class="rv-31-footer-wized wow fadeInUp" data-wow-delay="0.3s">
                             <h4 class="rv-31-footer-wized__title">Useful Links</h4>
                             <ul class="footer-wized-ul">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="projects.html">Latest Work</a></li>
-                                <li><a href="team.html">Team Members</a></li>
-                                <li><a href="blog.html">Latest Blog</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="{{ route('home') }}">Home</a></li>
+                                <li><a href="{{ route('about') }}">About</a></li>
+                                <li><a href="{{ route('service') }}">Services</a></li>
+                                <li><a href="{{ route('contact') }}">Contact</a></li>
                             </ul>
                         </div>
 
                     </div>
 
-                    <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="rv-31-footer-wized wow fadeInUp" data-wow-delay="0.45s">
                             <h4 class="rv-31-footer-wized__title">Our Services</h4>
                             <ul class="footer-wized-ul">
-                                <li><a href="#">Managed Service</a></li>
-                                <li><a href="#">Cloud Solution</a></li>
-                                <li><a href="#">Network Services</a></li>
-                                <li><a href="#">Cyber Security</a></li>
-                                <li><a href="#">Backup & Recovery</a></li>
+                                <li><a href="javascript:void(0)">IT Infrastructure Services</a></li>
+                                <li><a href="javascript:void(0)">Cyber Security Services</a></li>
+                                <li><a href="javascript:void(0)">Development Services</a></li>
+                                <li><a href="javascript:void(0)">Designing Services</a></li>
+                                <li><a href="javascript:void(0)">WordPress & Shopify Services</a></li>
                             </ul>
                         </div>
 
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="rv-31-footer-wized wow fadeInUp" data-wow-delay="0.6s">
-                            <h4 class="rv-31-footer-wized__title">Newsletter SignUp</h4>
-                            <form action="#" class="rv-32-footer-nwsltr__form rv-34-footer-newsletter ">
-                                <div class="nwsltr-top">
-                                    <input type="email" required name="email" placeholder="Enter your Email...">
-                                    <button class="rv-34-btn">Subscribe</button>
-                                </div>
-                                <div class="rv-32-footer-nwsltr__checkbox">
-                                    <input type="checkbox" required id="footer-nwsltr-checkbox" name="checkbox"
-                                        value="1">
-                                    <label id="nwsltr-checkbox"> I agree to the <a href="contact.html">Privacy
-                                            Policy</a>.</label>
-                                </div>
-                            </form>
-                        </div>
-
-                    </div>
                 </div>
                 <div class="row">
                     <div class="rv-34-footer-bottom mt-95 wow fadeInUp">
