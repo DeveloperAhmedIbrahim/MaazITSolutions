@@ -16,6 +16,17 @@
 <!-- BREADCRUMB ENDS HERE -->
 
 {{-- SERVICE SECTION STARTS --}}
+<div class="rv-34-service mt-120 " >
+    <div class="container">
+        <div class="row">
+            <div class="rv-34-section-heading text-center ">
+                <span class="rv-34-tag">
+                    <h4 class="mb-0"><b>INFRASTRUCTURE & NETWORKS</b></h4>
+                </span>
+             </div>
+        </div>
+    </div>
+</div>
 <section class="rv-31-about mt-120">
     <div class="container">
         <div class="row">
@@ -96,7 +107,7 @@
 <div class="rv-34-service mt-120 " >
     <div class="container">
         <div class="row">
-            <div class="rv-34-section-heading text-center mb-35">
+            <div class="rv-34-section-heading text-center ">
                 <span class="rv-34-tag">
                     <h4 class="mb-0"><b>IT CONSULTATION</b></h4>
                 </span>
@@ -182,7 +193,7 @@
 <div class="rv-34-service mt-120 " >
     <div class="container">
         <div class="row">
-            <div class="rv-34-section-heading text-center mb-35">
+            <div class="rv-34-section-heading text-center ">
                 <span class="rv-34-tag">
                     <h2 class="mb-0"><b>IT SUPPORT</b></h2>
                 </span>
