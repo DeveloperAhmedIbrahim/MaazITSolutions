@@ -121,11 +121,11 @@
                         <div class="rv-31-footer-wized wow fadeInUp" data-wow-delay="0.45s">
                             <h4 class="rv-31-footer-wized__title">Our Services</h4>
                             <ul class="footer-wized-ul">
-                                <li><a href="javascript:void(0)">IT Infrastructure Services</a></li>
-                                <li><a href="javascript:void(0)">Cyber Security Services</a></li>
-                                <li><a href="javascript:void(0)">Development Services</a></li>
-                                <li><a href="javascript:void(0)">Designing Services</a></li>
-                                <li><a href="javascript:void(0)">WordPress & Shopify Services</a></li>
+                                <li><a href="{{ route('service', 'it-infrastructure') }}">IT Infrastructure Services</a></li>
+                                <li><a href="{{ route('service', 'cyber-security') }}">Cyber Security Services</a></li>
+                                <li><a href="{{ route('service', 'development') }}">Development Services</a></li>
+                                <li><a href="{{ route('service', 'designing') }}">Designing Services</a></li>
+                                <li><a href="{{ route('service', 'wordpress-and-shopify') }}">WordPress & Shopify Services</a></li>
                             </ul>
                         </div>
 

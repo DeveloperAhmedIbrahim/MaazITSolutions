@@ -67026,7 +67026,7 @@ only screen and (min-width: 0px) and (max-width: 479px) {
 }
 
 .rv-inner-contact-info {
-    background: #1A1A1A;
+    background: rgba(10, 37, 64, 0.8);
     border: 1px solid #fdfdfd;
     padding: 30px 40px;
     border-radius: 5px;
@@ -67068,12 +67068,13 @@ only screen and (min-width: 0px) and (max-width: 479px) {
     width: 55px;
     height: 55px;
     border-radius: 50%;
-    background-color: #B1F001;
     flex-shrink: 0;
     display: grid;
     place-content: center;
     font-size: 22px;
     color: white;
+    border: 5px solid #B1F001;
+    color: #B1F001;
 }
 
 @media screen and (max-width: 1199px) {
