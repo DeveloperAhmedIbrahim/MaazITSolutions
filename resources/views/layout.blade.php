@@ -38,8 +38,14 @@
                                 </div>
                                 <div class="rv-1-header-nav__sidebar">
                                     <div class="sidebar-heading d-lg-none d-flex align-items-center justify-content-between">
-                                        <a href="index-2.html" class="logo-container ">
-                                            <img src="{{ asset('assets/img/Software/logo/rv-34-logo.png') }}" alt="logo">
+                                        <a href="index-2.html" class="logo-container " style="color: white">
+                                            <div class="d-flex">
+                                                <img src="{{ asset('assets/img/logo.png') }}" alt="logo" height="50">
+                                                <div class="logo-text-container ps-1">
+                                                    <div class="logo-text-upper">MAAZ</div>
+                                                    <div class="logo-text-lower">IT Solutions</div>
+                                                </div>
+                                            </div>
                                         </a>
                                         <button class=" rv-1-header-mobile-menu-btn sidebar-close-btn rv-3-def-btn">
                                             <i class="fa-regular fa-xmark"></i>
@@ -134,7 +140,7 @@
                 </div>
                 <div class="row">
                     <div class="rv-34-footer-bottom mt-95 wow fadeInUp">
-                        Copyright © 2024 All Rights Reserved by Maaz IT Solutions
+                        Copyright © {{ date('Y') }} All Rights Reserved by Maaz IT Solutions
                     </div>
                 </div>
             </div>

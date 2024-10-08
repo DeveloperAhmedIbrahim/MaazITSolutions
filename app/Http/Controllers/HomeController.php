@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
@@ -49,8 +51,23 @@ class HomeController extends Controller
         }
     }
 
-    public function contact()
+    public function contact(Request $request)
     {
-        return view('contact');
+        if($request->method() === 'POST')
+        {
+            $request->validate([
+                'name' => 'required',
+                'email' => 'required',
+                'subject' => 'required',
+                'message' => 'required',
+            ]);
+
+            Mail::to('siddiqui.ahmedibrahim@gmail.com')->send(new ContactMail($request->all()));
+            return redirect()->route('contact')->with('success', true);
+        }
+        else
+        {
+            return view('contact');
+        }
     }
 }

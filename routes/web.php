@@ -8,4 +8,4 @@ Route::get('/', [HomeController::class, "index"]);
 Route::get('home', [HomeController::class, "home"])->name('home');
 Route::get('about', [HomeController::class, "about"])->name('about');
 Route::get('service/{slug?}', [HomeController::class, "service"])->name('service');
-Route::get('contact', [HomeController::class, "contact"])->name('contact');
+Route::match(['GET', 'POST'], 'contact', [HomeController::class, "contact"])->name('contact');

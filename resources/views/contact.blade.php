@@ -15,6 +15,12 @@
 </div>
 <!-- BREADCRUMB ENDS HERE -->
 
+@if (Session::has('success'))
+    <div class="container alert alert-info alert-dismissible fade show" role="alert">
+        <strong>Thanks for contact!</strong> Our team will touch you soon.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+@endif
 
 <!-- CONTACT SECTION START -->
 <section class="rv-2-contact rv-inner-contact rv-section-spacing" data-aos="fade-up">
@@ -70,28 +76,38 @@
         <div class="row gy-3 gy-sm-4">
             <!-- contact form -->
             <div class="col-xxl-8 col-lg-7">
-                <div class="rv-2-contact__txt rv-inner-contact__txt">
+                <div class="rv-2-contact__txt rv-inner-contact__txt" id="connect-form">
                     <h3 class="rv-2-contact-form-title">Let's Connect.</h3>
-                    <form action="#" class="rv-2-contact__form rv-inner-contact__form">
+                    <form action="{{ route('contact') }}/#connect-form" method="POST" class="rv-2-contact__form rv-inner-contact__form">
+                        @csrf
                         <div class="row">
                             <div class="col-sm-12">
-                                <input type="text" name="name" id="rv-2-contact-name" placeholder="Enter Your Full Name" required>
+                                <label for="name">Full Name</label>
+                                <input type="text" name="name" id="rv-2-contact-name" placeholder="Alexa Wales" value="{{ old('name') }}">
+                                @error('name')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
-
                             <div class="col-sm-12">
-                                <input type="email" name="email" id="rv-2-contact-email" placeholder="Enter Your Email Address" required>
+                                <label for="email">Email Address</label>
+                                <input type="email" name="email" id="rv-2-contact-email" placeholder="alexa.wales@domain.com" value="{{ old('email') }}">
+                                @error('email')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                             <div class="col-12">
-                                <select name="subjects" required id="rv-2-contact-subject">
-                                    <option value="Selects Subject" hidden>Select Subject</option>
-                                    <option value="Project Buy">Project Buy</option>
-                                    <option value="Custom Project">Custom Project</option>
-                                    <option value="Partnership Offer">Partnership Offer</option>
-                                    <option value="others">Others</option>
-                                </select>
+                                <label for="subject">Subject</label>
+                                <input type="text" name="subject" id="rv-2-contact-subject" placeholder="I want an Application for my own business." value="{{ old('subject') }}">
+                                @error('email')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                             <div class="col-12">
-                                <textarea name="message" id="rv-2-contact-message" placeholder="Message" required></textarea>
+                                <label for="message">Message</label>
+                                <textarea name="message" id="rv-2-contact-message" placeholder="Description...">{{ old('description') }}</textarea>
+                                @error('message')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                             <div class="col-12">
                                 <button type="submit">Send Message</button>
