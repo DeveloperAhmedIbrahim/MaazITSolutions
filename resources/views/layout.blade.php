@@ -26,7 +26,7 @@
                         <div class="col-12">
                             <div class="rv-31-menu rv-34-menu">
                                 <div class="rv-34-logo">
-                                    <a href="index-2.html" style="color: white">
+                                    <a href="{{ route('home') }}" style="color: white">
                                         <div class="d-flex">
                                             <img src="{{ asset('assets/img/logo.png') }}" alt="logo" height="50">
                                             <div class="logo-text-container ps-1">
@@ -38,7 +38,7 @@
                                 </div>
                                 <div class="rv-1-header-nav__sidebar">
                                     <div class="sidebar-heading d-lg-none d-flex align-items-center justify-content-between">
-                                        <a href="index-2.html" class="logo-container " style="color: white">
+                                        <a href="{{ route('home') }}" class="logo-container " style="color: white">
                                             <div class="d-flex">
                                                 <img src="{{ asset('assets/img/logo.png') }}" alt="logo" height="50">
                                                 <div class="logo-text-container ps-1">
@@ -56,6 +56,7 @@
                                             <li> <a href="{{ route('home') }}">Home</a> </li>
                                             <li> <a href="{{ route('service') }}">Services</a> </li>
                                             <li> <a href="{{ route('about') }}">About</a> </li>
+                                            <li> <a href="{{ route('blog') }}">Blog</a> </li>
                                             <li> <a href="{{ route('contact') }}">Contact</a> </li>
                                         </ul>
                                     </nav>
@@ -88,7 +89,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="rv-31-footer-wized rv-31-footer-about wow fadeInUp">
-                            <a href="index-2.html" style="color: black">
+                            <a href="{{ route('home') }}" style="color: black">
                                 <div class="d-flex">
                                     <img src="{{ asset('assets/img/logo.png') }}" alt="logo" height="50">
                                     <div class="logo-text-container ps-1">
