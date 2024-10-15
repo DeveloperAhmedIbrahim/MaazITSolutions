@@ -297,6 +297,251 @@
 </section>
 <!-- Testimonial section end  -->
 
+<!-- Blog section start  -->
+<section class="rv-34-blog pt-120 pb-90">
+    <div class="container">
+        <div class="row">
+            <div class="rv-34-section-heading text-center mb-35">
+                <span class="rv-34-tag wow fadeInUp">Blog & News</span>
+                <h2 class="rv-34-section-title wow fadeInUp" data-wow-delay="0.3s">Our Latest Findings</h2>
+            </div>
+        </div>
+        <div class="rv-34-blog-slider swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="rv-34-blog-item card">
+                        <div class="rv-34-blog-item__img">
+                            <a href="{{ route('blog-details') }}">
+                                <img src="{{ asset('assets/img/Software/blog/rv-34-blog1.jpg') }}" class="w-100" alt="blog page">
+                            </a>
+                        </div>
+                        <div class="rv-34-blog-item__content">
+                            <a href="{{ route('blog-details') }}" class="rv-34-blog-item__content-title">
+                                Foremost 14 Tech Stacks in<br>
+                                Software Building.
+                            </a>
+                            <hr>
+                            <div class="rv-34-blog-item-tags">
+                                <div class=" rv-34-blog-item-date_comments m-0 ">
+                                    <i class="fa-light fa-calendar-days"></i>
+                                    <span class="me-3 ">March 16, 2023</span><br>
+                                    <i class="fa-sharp fa-regular fa-comments"></i>
+                                    <span class="me-1 ">2 Comments</span>
+                                </div>
+                                <div class="rv-34-blog-share-btn">
+                                    <i class="fa-sharp fa-regular fa-share-nodes"></i>
+
+                                    <div class="rv-34-blog-share-btn-container">
+                                        <a href="#" class="rv-34-blog-share-btn-container__item"><i
+                                                class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#" class="rv-34-blog-share-btn-container__item"><i
+                                                class="fa-brands fa-twitter"></i></a>
+                                        <a href="#" class="rv-34-blog-share-btn-container__item"><i
+                                                class="fa-brands fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="{{ route('blog-details') }}" class="rv-34-btn">Development</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="rv-34-blog-item card">
+                        <div class="rv-34-blog-item__img">
+                            <a href="{{ route('blog-details') }}">
+                                <img src="{{ asset('assets/img/Software/blog/rv-34-blog2.jpg') }}" class="w-100 "
+                                    alt="blog page">
+                            </a>
+                        </div>
+                        <div class="rv-34-blog-item__content">
+                            <a href="{{ route('blog-details') }}" class="rv-34-blog-item__content-title">
+                                Foremost 14 Tech Stacks in<br>
+                                Software Building.
+                            </a>
+                            <hr>
+                            <div class="rv-34-blog-item-tags">
+                                <div class=" rv-34-blog-item-date_comments m-0 ">
+                                    <i class="fa-light fa-calendar-days"></i>
+                                    <span class="me-3 ">March 16, 2023</span><br>
+                                    <i class="fa-sharp fa-regular fa-comments"></i>
+                                    <span class="me-1 ">2 Comments</span>
+                                </div>
+                                <div class="rv-34-blog-share-btn">
+                                    <i class="fa-sharp fa-regular fa-share-nodes"></i>
+
+                                    <div class="rv-34-blog-share-btn-container">
+                                        <a href="#" class="rv-34-blog-share-btn-container__item"><i
+                                                class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#" class="rv-34-blog-share-btn-container__item"><i
+                                                class="fa-brands fa-twitter"></i></a>
+                                        <a href="#" class="rv-34-blog-share-btn-container__item"><i
+                                                class="fa-brands fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="{{ route('blog-details') }}" class="rv-34-btn">Meeting</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="rv-34-blog-item card">
+                        <div class="rv-34-blog-item__img">
+                            <a href="{{ route('blog-details') }}">
+                                <img src="{{ asset('assets/img/Software/blog/rv-34-blog3.jpg') }}" class="w-100 "
+                                    alt="blog page">
+                            </a>
+                        </div>
+                        <div class="rv-34-blog-item__content">
+                            <a href="{{ route('blog-details') }}" class="rv-34-blog-item__content-title">
+                                Foremost 14 Tech Stacks in<br>
+                                Software Building.
+                            </a>
+                            <hr>
+                            <div class="rv-34-blog-item-tags">
+                                <div class=" rv-34-blog-item-date_comments m-0 ">
+                                    <i class="fa-light fa-calendar-days"></i>
+                                    <span class="me-3 ">March 16, 2023</span><br>
+                                    <i class="fa-sharp fa-regular fa-comments"></i>
+                                    <span class="me-1 ">2 Comments</span>
+                                </div>
+                                <div class="rv-34-blog-share-btn">
+                                    <i class="fa-sharp fa-regular fa-share-nodes"></i>
+                                    <div class="rv-34-blog-share-btn-container">
+                                        <a href="#" class="rv-34-blog-share-btn-container__item"><i
+                                                class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#" class="rv-34-blog-share-btn-container__item"><i
+                                                class="fa-brands fa-twitter"></i></a>
+                                        <a href="#" class="rv-34-blog-share-btn-container__item"><i
+                                                class="fa-brands fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="{{ route('blog-details') }}" class="rv-34-btn">Optimizing</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="rv-34-blog-item card">
+                        <div class="rv-34-blog-item__img">
+                            <a href="{{ route('blog-details') }}">
+                                <img src="{{ asset('assets/img/Software/blog/rv-34-blog2.jpg') }}" class="w-100 "
+                                    alt="blog page">
+                            </a>
+                        </div>
+                        <div class="rv-34-blog-item__content">
+                            <a href="{{ route('blog-details') }}" class="rv-34-blog-item__content-title">
+                                Foremost 14 Tech Stacks in<br>
+                                Software Building.
+                            </a>
+                            <hr>
+                            <div class="rv-34-blog-item-tags">
+                                <div class=" rv-34-blog-item-date_comments m-0 ">
+                                    <i class="fa-light fa-calendar-days"></i>
+                                    <span class="me-3 ">March 16, 2023</span><br>
+                                    <i class="fa-sharp fa-regular fa-comments"></i>
+                                    <span class="me-1 ">2 Comments</span>
+                                </div>
+                                <div class="rv-34-blog-share-btn">
+                                    <i class="fa-sharp fa-regular fa-share-nodes"></i>
+
+                                    <div class="rv-34-blog-share-btn-container">
+                                        <a href="#" class="rv-34-blog-share-btn-container__item"><i
+                                                class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#" class="rv-34-blog-share-btn-container__item"><i
+                                                class="fa-brands fa-twitter"></i></a>
+                                        <a href="#" class="rv-34-blog-share-btn-container__item"><i
+                                                class="fa-brands fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="{{ route('blog-details') }}" class="rv-34-btn">Meeting</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="rv-34-blog-item card">
+                        <div class="rv-34-blog-item__img">
+                            <a href="{{ route('blog-details') }}">
+                                <img src="{{ asset('assets/img/Software/blog/rv-34-blog3.jpg') }}" class="w-100 "
+                                    alt="blog page">
+                            </a>
+                        </div>
+                        <div class="rv-34-blog-item__content">
+                            <a href="{{ route('blog-details') }}" class="rv-34-blog-item__content-title">
+                                Foremost 14 Tech Stacks in<br>
+                                Software Building.
+                            </a>
+                            <hr>
+                            <div class="rv-34-blog-item-tags">
+                                <div class=" rv-34-blog-item-date_comments m-0 ">
+                                    <i class="fa-light fa-calendar-days"></i>
+                                    <span class="me-3 ">March 16, 2023</span><br>
+                                    <i class="fa-sharp fa-regular fa-comments"></i>
+                                    <span class="me-1 ">2 Comments</span>
+                                </div>
+                                <div class="rv-34-blog-share-btn">
+                                    <i class="fa-sharp fa-regular fa-share-nodes"></i>
+
+                                    <div class="rv-34-blog-share-btn-container">
+                                        <a href="#" class="rv-34-blog-share-btn-container__item"><i
+                                                class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#" class="rv-34-blog-share-btn-container__item"><i
+                                                class="fa-brands fa-twitter"></i></a>
+                                        <a href="#" class="rv-34-blog-share-btn-container__item"><i
+                                                class="fa-brands fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="{{ route('blog-details') }}" class="rv-34-btn">Optimizing</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="rv-34-blog-item card">
+                        <div class="rv-34-blog-item__img">
+                            <a href="{{ route('blog-details') }}">
+                                <img src="{{ asset('assets/img/Software/blog/rv-34-blog1.jpg') }}" class="w-100 "
+                                    alt="blog page">
+                            </a>
+                        </div>
+                        <div class="rv-34-blog-item__content">
+                            <a href="{{ route('blog-details') }}" class="rv-34-blog-item__content-title">
+                                Foremost 14 Tech Stacks in<br>
+                                Software Building.
+                            </a>
+                            <hr>
+                            <div class="rv-34-blog-item-tags">
+                                <div class=" rv-34-blog-item-date_comments m-0 ">
+                                    <i class="fa-light fa-calendar-days"></i>
+                                    <span class="me-3 ">March 16, 2023</span><br>
+                                    <i class="fa-sharp fa-regular fa-comments"></i>
+                                    <span class="me-1 ">2 Comments</span>
+                                </div>
+                                <div class="rv-34-blog-share-btn">
+                                    <i class="fa-sharp fa-regular fa-share-nodes"></i>
+
+                                    <div class="rv-34-blog-share-btn-container">
+                                        <a href="#" class="rv-34-blog-share-btn-container__item"><i
+                                                class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#" class="rv-34-blog-share-btn-container__item"><i
+                                                class="fa-brands fa-twitter"></i></a>
+                                        <a href="#" class="rv-34-blog-share-btn-container__item"><i
+                                                class="fa-brands fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="{{ route('blog-details') }}" class="rv-34-btn">Development</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="rv-34-blog-controller mt-45"></div>
+        </div>
+    </div>
+</section>
+<!-- Blog section end  -->
+
 <!-- Team section start  -->
 {{-- <section class="rv-34-team mb-120">
     <div class="container">

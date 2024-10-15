@@ -51,6 +51,16 @@ class HomeController extends Controller
         }
     }
 
+    public function blog()
+    {
+        return view('blog');
+    }
+
+    public function blog_details()
+    {
+        return view('blog-details');
+    }
+
     public function contact(Request $request)
     {
         if($request->method() === 'POST')
@@ -70,4 +80,5 @@ class HomeController extends Controller
             return view('contact');
         }
     }
+
 }
